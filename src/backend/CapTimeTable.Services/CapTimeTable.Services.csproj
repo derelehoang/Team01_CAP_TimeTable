@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CapTimeTable.Core\CapTimeTable.Core.csproj" />
+    <ProjectReference Include="..\CapTimeTable.Domain\CapTimeTable.Domain.csproj" />
+    <ProjectReference Include="..\CapTimeTable.Infrastrucutre\CapTimeTable.Infrastrucutre.csproj" />
+  </ItemGroup>
+
+</Project>
